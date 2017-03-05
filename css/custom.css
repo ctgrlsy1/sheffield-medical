@@ -1,0 +1,121 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 0px;
+  background-color: #cacaca;
+}
+
+
+
+html, body {
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: #fff;
+}
+
+.nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav .link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: Sans-serif;
+  color: #333;
+  margin: 0 10px;
+}
+
+.blocks {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.blocks:nth-child(1) {
+  background: gray;
+}
+.blocks:nth-child(2) {
+  background: white;
+}
+.blocks:nth-child(3) {
+  background: pink;
+}
+.blocks:nth-child(4) {
+  background: yellow;
+}
+.blocks:nth-child(5) {
+  background: black;
+}
+
+
+#bloco1 {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+footer {
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  text-align: right;
+  position: relative;
+}
+
+#bloco1 h1 {
+	opacity: 1;
+	font-size: 100px;
+}
+
+
+a.class {
+	font-size: 60px;
+}
+
+
+.homepage a {
+	color: #4d004d;
+}
+
+.navbar-brand {
+	font-size: 20px;
+	font-family: 'Sarala', sans-serif;
+	text-transform: uppercase;
+}
+
+.col-md-4 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.homepage a:hover {
+	color: #4d004d;
+	text-decoration: none;
+	opacity: .8;
+}
+
+
+/* Responsive Styling */
+
+@media (max-width: @1199px) {
+
+.jumbotron h1 {
+	font-size: 56px
+	margin-bottom: 30px;
+}
+
+
+
