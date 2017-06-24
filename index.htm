@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <meta name="description" content="">
+
+    <meta name="author" content="">
+
+    <link rel="icon" href="../../favicon.ico">
+
+ 
+
+    <title>Sheffield Medical Centre</title>
+
+ 
+
+    <!-- This is our Google Arvo font and font awesome -->
+
+    <link href="https://fonts.googleapis.com/css?family=Sarala" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+
+ 
+
+    <!-- Bootstrap core CSS -->
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+ 
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+ 
+
+      <!-- Custom styles for this template -->
+
+    <link href="css/custom.css" rel="stylesheet">
+
+    <link href="dist/hamburgers.css" rel="stylesheet">
+
+ 
+
+    <style>
+
+ 
+
+    .btn-lg {
+
+      font-size: 25px;
+
+    }
+
+ 
+
+    </style>
+
+    <style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+
+ 
+
+ 
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+ 
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+
+    <!--[if lt IE 9]>
+
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+
+  </head>
+
+ 
+
+  <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+
+<div class="navbar" style="margin-bottom: -50px; margin-top: -40px">
+<ul>
+<li style="padding: 50px; font-weight: 600;"><a href="#bloco1"></a></li>
+<li style="padding: 50px; font-weight: 600;"><a href="#bloco2"></a></li>
+<li style="padding: 50px; font-weight: 600;"><a href="#bloco3"></a></li>
+</ul>
+</div>
+
+
+
+    
+
+
+
+<div class="blocks" id="bloco1" style="position: relative; background: #fff"><img src="images/pic-1.jpg" style="position: absolute; width: 100%; height: inherit; opacity: 0.6; background-repeat: no-repeat;">
+<h1 style="text-align: center; margin-top: 70px; text-size: 100px; font-size: 70px; position: relative; font-family: Overpass, sans serif">Sheffield Medical Centre</h1>
+<p style="position: relative; text-align: center; font-size: 30px; font-family: Overpass, sans serif">
+<br>
+21 Spital Street
+<br>
+Burngreave
+<br>
+Sheffield 
+<br>
+S3 9LB 
+<br>
+0114 2727042
+<br>
+</div>
+<div class="blocks" id="bloco2">
+<div class="row" style="background: #fcfcfc; border: 2px solid #f2f2f2">
+<div class="col-md-4" style="
+    margin-left: 80px; width: 40%;
+    "">
+<h4>About Us</h4>
+<p>We aim to provide a high standard of medical care in a friendly and professional manner. You can help us achieve our aim by browsing this site and following the suggestions made to ensure that appropriate services can be provided when you most need them. The site contains useful information about how to get the most from a visit to your surgery.</p>
+<br>
+<p>You can register at the practice by medical card/registration form. You will be offered a new patient check up appointment. Registration is subject to doctors/nurses decision.</p>
+<br>
+<p>Log on to our online system, SystmOnline, to access your patient records and make an appointment.</p>
+<br>
+<button class="button-style" style="width: 150px;
+    height: 50px;
+    background: white;
+    border: 2px solid;">SystmOnline</button>
+</div>
+
+
+<div class="col-md-6" style="padding: 50px; margin-top: -60px;">
+<div id="googleMap" style="width:100%;height:400px; margin-top: 65px"></div>
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+</div>  
+
+
+
+<div class="blocks" id="bloco3">
+<div class="row" style="padding-top: 30px; background: #f7f7f7; border: 2px solid #f2f2f2;">
+<div class="col-md-4" style="
+    margin-left: 80px; width: 40%;
+    "">
+<h4>Staff</h4>
+<p><strong>Clinical Staff</strong>
+<br>
+Dr Chinyere Nwafor  MBBS, MSC, DRCOG, MRCGP (female part-time)
+<br>
+Dr Ngozi Wosu Ezi MBBS, FRCOG, MRCGP, DFFP (male part-time)
+<br>
+Heather Robins-White  RGN, BA, MSC, DHP, Nurse Prescriber
+<br>
+<br>
+<strong>Key Personnel</strong>
+<br>
+Practice Manager  Julie King Dip PM
+<br>
+Medical Secretary/ Receptionist Tina Moran-Healy Amspar Dip HSR
+<br>
+Senior Receptionist Ann Nalty
+<br>
+Bilingual Receptionist  Khadra Ali (Somali/Arabic)
+<br>
+Pharmacist  Neil Heslop B.S.c, MRPharms</p>
+</div>
+
+<div class="row">
+<div class="col-md-4" style="
+    margin-left: 80px; width: 40%;
+    "">
+<h4>Clinic Times</h4>
+<br>
+
+<table>
+  <tr>
+    <th>Day</th>
+    <th>Time</th>
+    <th>Service</th>
+  </tr>
+  <tr>
+    <td>Monday</td>
+    <td>9:00-10:30</td>
+    <td>Phlebotomy</td>
+  </tr>
+  <tr>
+    <td>Monday</td>
+    <td>10:30-13:00</td>
+    <td>Miscellaneous</td>
+  </tr>
+  <tr>
+    <td>Monday</td>
+    <td>15:00-17:30</td>
+    <td>Miscellaneous</td>
+  </tr>
+  <tr>
+    <td>Wednesday</td>
+    <td>9:00-10:30</td>
+    <td>Phlebotomy</td>
+  </tr>
+  <tr>
+    <td>Wednesday</td>
+    <td>10:30-13:00</td>
+    <td>Miscellaneous</td>
+  </tr>
+  <tr>
+    <td>Wednesday</td>
+    <td>15:00-17:30</td>
+    <td>Miscellaneous</td>
+  </tr>
+  <tr>
+    <td>Thursday</td>
+    <td>9:00-10:30</td>
+    <td>Phlebotomy</td>
+  </tr>
+  <tr>
+    <td>Thursday</td>
+    <td>10:30-13:00</td>
+    <td>Miscellaneous</td>
+  </tr>
+  <tr>
+    <td>Thursday</td>
+    <td>13:00-18:00</td>
+    <td>Closed</td>
+  </tr>
+   <tr>
+    <td>Friday</td>
+    <td>9:00-10:30</td>
+    <td>Phlebotomy</td>
+  </tr>
+   <tr>
+    <td>Friday</td>
+    <td>10:30-13:00</td>
+    <td>Miscellaneous</td>
+  </tr>
+   <tr>
+    <td>Friday</td>
+    <td>15:00-18:00</td>
+    <td>Miscellaneous</td>
+  </tr>
+</table>
+</div>
+
+
+
+<div id="footer" class="container" style="padding: 7px">
+<br>
+<br>
+<p style="text-align: center">© 2017 Copyright Sheffield Medical Centre</p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+  
+
+ 
+
+  
+
+   
+
+ 
+
+ 
+
+    <!-- Bootstrap core JavaScript
+
+    ================================================== -->
+
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Google Maps API -->
+
+    
+    <script src="js/menu2.js"></script>
+
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="js/smoothscroll.js"></script>
+
+    <script>function buttonclick()  
+{  
+    var menuList = document.getElementById("menu");  
+    if (menuList.className == "menuOff")  
+    {  
+  
+        menuList.className = "menuOn";  
+    } else  
+    {  
+  
+        menuList.className = "menuOff";  
+    }  
+}</script>  
+    
+    
+
+  </body>
+
+</html>
